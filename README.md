@@ -15,14 +15,22 @@ TODO sample app to easy integrate [stripe](https://stripe.com/es-us) in your pro
 git clone https://github.com/Count-I/todo-stripe-integration.git
 ```
 ## Initialize
+Install dependencies
+```bash
+npm install --prefix .\backend\
+```
 Run the server
 ```bash
 npm run dev --prefix .\backend\
 ```
 or directly from de [backend](https://github.com/Count-I/todo-stripe-integration/tree/main/backend) directoy
 ```bash
+npm install
+```
+```bash
 npm run dev
 ```
+
 ## Usage
 ### To test your payments you can use any valid email such as
 test@test.com
