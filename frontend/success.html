@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="successfull">
+        <p>Payment successfull</p>
+        <p id="check">✔</p>
+        <div>
+            <button type="button" class="close" id="closeSuccess">Close</button>
+        </div>
+    </div>
+    <script>
+        const cancelButton = document.getElementById("closeSuccess")
+        if (cancelButton != null) cancelButton.addEventListener("click", () => {
+            console.log("yes");
+            location.href = "/";
+        })
+    </script>
+</body>
+</html>
